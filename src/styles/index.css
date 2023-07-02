@@ -1,12 +1,68 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px rgba(10, 9, 9, 0.922) solid;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 190px;
+}
 
-/* 
+.tasl-item p {
+    display: flex;
+    justify-self: start;
+}
+.task-list {
+    width: 350px;
+    padding: 5px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.todo-container {
+    margin: 25px;
+    width: 350px;
+    background-color: rgb(182, 202, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-*/
+h1 {
+  padding-top:10px;
+  color: rgb(20, 20, 20);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  opacity: 50%;
+}
+
+.deleteAll {
+    background-color: rgb(114, 223, 250);
+    border-radius: 5px;
+    border: 3px black solid;
+    height: 30px;
+    margin-bottom:10px;
+}
+
+.list-delete {
+    display: focus;
+    color: rgb(173, 29, 230);
+    background-color: rgb(195, 182, 255);
+    border: none;
+}
+
+.list-delete:hover {
+    background-color: rgb(116, 114, 250);
+    color: black;
+    border-radius: 5px;
+    height: 30px; 
+    border: 2px solid black;
+    border-radius: 100%;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+}
